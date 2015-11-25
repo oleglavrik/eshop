@@ -1,6 +1,6 @@
 <?php
 
-namespace Model;
+namespace models;
 
 use components\Db;
 
@@ -10,7 +10,7 @@ class Category {
 
         $categoryList = array();
 
-        $result = $db->query('SELECT id, name FROM category ORDER BY sort_order ASC');
+        $result = $db->query("SELECT id, name FROM category ORDER BY sort_order ASC");
         $i = 0;
         while($row = $result->fetch(\PDO::FETCH_ASSOC)){
             $categoryList[$i]['id']   = $row['id'];
@@ -20,4 +20,4 @@ class Category {
 
         return $categoryList;
     }
-} 
+}

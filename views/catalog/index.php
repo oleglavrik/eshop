@@ -20,11 +20,11 @@
                 <div class="product-image-wrapper">
                     <div class="single-products">
                         <div class="productinfo text-center">
-                            <a href="product/<?php echo $productItem['id']; ?>">
+                            <a href="/product/<?php echo $productItem['id']; ?>">
                                 <img src="/template/<?php echo $productItem['image']; ?>" alt="" />
                             </a>
                             <h2><?php echo '$' . $productItem['price']; ?></h2>
-                            <a href="product/<?php echo $productItem['id']; ?>"><p><?php echo $productItem['name']; ?></p></a>
+                            <a href="/product/<?php echo $productItem['id']; ?>"><p><?php echo $productItem['name']; ?></p></a>
                             <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
                         </div>
                         <?php if($productItem['is_new']) : ?>

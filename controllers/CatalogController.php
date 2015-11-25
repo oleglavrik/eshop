@@ -2,11 +2,12 @@
 
 namespace controllers;
 
-use Model\Category;
-use Model\Product;
 
-include(ROOT . '/model/Category.php');
-include(ROOT . '/model/Product.php');
+use models\Category;
+use models\Product;
+
+include(ROOT . '/models/Category.php');
+include(ROOT . '/models/Product.php');
 
 class CatalogController {
     public function actionIndex(){
@@ -32,5 +33,7 @@ class CatalogController {
         $categoryProducts = Product::getProductsListByCategory($categoryId);
 
         require_once(ROOT . '/views/catalog/catalog.php');
+
+        return true;
     }
 } 

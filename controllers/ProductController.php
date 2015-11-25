@@ -2,11 +2,11 @@
 
 namespace controllers;
 
-use Model\Category;
-use Model\Product;
+use models\Category;
+use models\Product;
 
-include(ROOT . '/model/Category.php');
-include(ROOT . '/model/Product.php');
+include(ROOT . '/models/Category.php');
+include(ROOT . '/models/Product.php');
 
 class ProductController {
     public function actionView($id){
