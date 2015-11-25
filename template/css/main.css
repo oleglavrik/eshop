@@ -2525,4 +2525,12 @@ h2.title {
   color: #FE980F;
 }
 
+.paginator {
+    clear: both;
+    text-align: center;
+
+}
+.pagination li a {
+    color: #696763;
+}
 
