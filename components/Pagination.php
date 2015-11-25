@@ -1,14 +1,8 @@
 <?php
 
-/*
- * Класс для генерации постраничной навигации
- */
-
-namespace components;
-
 class Pagination
 {
-
+    // todo change comments in English
     /**
      * 
      * @var Ссылок навигации на страницу

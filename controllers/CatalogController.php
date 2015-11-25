@@ -1,12 +1,5 @@
 <?php
 
-namespace controllers;
-
-
-use components\Pagination;
-use models\Category;
-use models\Product;
-
 include(ROOT . '/models/Category.php');
 include(ROOT . '/models/Product.php');
 

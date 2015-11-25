@@ -1,7 +1,5 @@
 <?php
 
-namespace components;
-
 class Db {
     public static function getConnection(){
         $paramsPath = ROOT . '/config/params.php';

@@ -1,7 +1,5 @@
 <?php
 
-namespace components;
-
 class Router {
     private $routes;
 
@@ -47,13 +45,6 @@ class Router {
                 if(file_exists($controllerFile)){
                     include_once($controllerFile);
                 }
-
-
-                /*
-                 * if you use namespace
-                 * or not clear that
-                 */
-                $controllerName = '\controllers\\' .$controllerName;
 
                 # create object and run method
                 $controllerObject = new $controllerName;

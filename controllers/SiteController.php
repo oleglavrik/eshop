@@ -1,10 +1,5 @@
 <?php
 
-namespace controllers;
-
-use models\Category;
-use models\Product;
-
 include(ROOT . '/models/Category.php');
 include(ROOT . '/models/Product.php');
 

@@ -1,9 +1,5 @@
 <?php
 
-namespace models;
-
-use components\Db;
-
 class Category {
     public static function getCategory(){
         $db = Db::getConnection();

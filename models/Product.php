@@ -1,9 +1,5 @@
 <?php
 
-namespace models;
-
-use components\Db;
-
 class Product {
     const SHOW_BY_DEFAULT = 6;
 
