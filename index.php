@@ -9,3 +9,5 @@
     # start
     $router = new Router();
     $router->run();
+
+    // todo add .gitignore
