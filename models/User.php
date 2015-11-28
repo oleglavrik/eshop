@@ -40,17 +40,33 @@ class User {
     }
 
     public static function checkEmailExists($email){
-        // Соединение с БД
         $db = Db::getConnection();
-        // Текст запроса к БД
+
         $sql = 'SELECT COUNT(*) FROM user WHERE email = :email';
-        // Получение результатов. Используется подготовленный запрос
+
         $result = $db->prepare($sql);
         $result->bindParam(':email', $email, PDO::PARAM_STR);
         $result->execute();
 
         if ($result->fetchColumn())
             return true;
+        return false;
+    }
+
+    public static function checkUserData($email, $password){
+        $db = Db::getConnection();
+
+        $sql = 'SELECT * FROM user WHERE email = :email AND password = :password';
+        $result = $db->prepare($sql);
+        $result->bindParam(':email', $email, PDO::PARAM_STR);
+        $result->bindParam(':password', $password, PDO::PARAM_STR);
+        $result->execute();
+
+        $user = $result->fetch();
+
+        if($user){
+            return $user['id'];
+        }
         return false;
     }
 } 

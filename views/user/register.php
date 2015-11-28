@@ -5,7 +5,7 @@
         <div class="row">
 
             <div class="col-sm-4 col-sm-offset-4 padding-right">
-                <?php if(isset($result)) : ?>
+                <?php if($result == true): ?>
                     <div class="success">You've registered!</div>
                 <?php else:  ?>
                     <?php if(isset($errors) && is_array($errors)) : ?>
