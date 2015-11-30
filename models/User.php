@@ -69,4 +69,57 @@ class User {
         }
         return false;
     }
+
+    public static function auth($userId){
+        $userId = intval($userId);
+        $_SESSION['user'] = $userId;
+    }
+
+    public static function checkLogged(){
+        if(isset($_SESSION['user'])){
+            return $_SESSION['user'];
+        }
+
+        header('Location: /user/login/');
+    }
+
+    public static function isGuest(){
+        if(isset($_SESSION['user'])){
+            return false;
+        }
+
+        return true;
+    }
+
+    public static function getUserById($userId){
+        $userId = intval($userId);
+
+        $db =  Db::getConnection();
+
+        $sql = 'SELECT * FROM user WHERE id = :id';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':id', $userId, PDO::PARAM_INT);
+        $result->setFetchMode(PDO::FETCH_ASSOC);
+        $result->execute();
+
+        return $result->fetch();
+    }
+
+    public static function edit($id, $name, $password){
+        $db = Db::getConnection();
+
+        $sql = 'UPDATE user
+        SET name = :name, password = :password
+        WHERE id = :id
+        ';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':id', $id, PDO::PARAM_INT);
+        $result->bindParam(':name', $name, PDO::PARAM_STR);
+        $result->bindParam(':password', $password, PDO::PARAM_STR);
+
+        return $result->execute();
+
+    }
 } 

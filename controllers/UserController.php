@@ -61,18 +61,35 @@ class UserController {
 
             # validation fields
             if(!User::checkEmail($email)){
-                $errors = ' - Wrong email';
+                $errors[] = ' - Wrong email';
             }
 
             if(!User::checkPassword($password)){
-                $errors = ' - Password havn\'t to be shortly six symbols';
+                $errors[] = ' - Password havn\'t to be shortly six symbols';
             }
 
             # check user data
             $userId = User::checkUserData($email, $password);
+
+            if($userId == false){
+                $errors[] = ' - Wrong user data';
+            }else{
+                User::auth($userId);
+
+                header('Location: /account/');
+            }
         }
         require_once(ROOT . '/views/user/login.php');
 
         return true;
     }
+
+    public function actionLogout(){
+
+        unset($_SESSION['user']);
+
+        header('Location: /');
+    }
+
+
 } 
