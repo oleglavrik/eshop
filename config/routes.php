@@ -9,6 +9,7 @@
         'user/logout'       => 'user/logout',
         'account/edit'      => 'account/edit',
         'account'           => 'account/index',
-
+        'cart/addAjax/([0-9]+)' => 'cart/addAjax/$1',
+        'cart'              => 'cart/index',
         ''                  => 'site/index'
     );

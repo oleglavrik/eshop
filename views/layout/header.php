@@ -60,7 +60,7 @@
                 <div class="col-sm-8">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i> Корзина</a></li>
+                            <li><a href="/cart/"><i class="fa fa-shopping-cart"></i> Корзина(<span id="cart-count"><?php echo Cart::countItems(); ?></span>)</a></li>
                             <?php if(User::isGuest()) : ?>
                                 <li><a href="/user/login/"><i class="fa fa-lock"></i> Вход</a></li>
                             <?php else : ?>
@@ -92,7 +92,10 @@
                             <li class="dropdown"><a href="#">Магазин<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
                                     <li><a href="/catalog/">Каталог товаров</a></li>
-                                    <li><a href="/card/">Корзина</a></li>
+                                    <li><a href="/cart">
+                                            <i class="fa fa-shopping-cart"></i> Корзина
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                             <li><a href="/blog/">Блог</a></li>

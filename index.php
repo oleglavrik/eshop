@@ -13,3 +13,5 @@
     $router->run();
 
     // todo add .gitignore
+
+    // todo add md5

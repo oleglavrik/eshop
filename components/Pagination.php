@@ -3,18 +3,9 @@
 class Pagination
 {
     // todo change comments in English
-    /**
-     * 
-     * @var Ссылок навигации на страницу
-     * 
-     */
+
     private $max = 10;
 
-    /**
-     * 
-     * @var Ключ для GET, в который пишется номер страницы
-     * 
-     */
     private $index = 'page';
 
     /**
