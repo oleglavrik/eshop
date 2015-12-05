@@ -102,4 +102,30 @@ class Product {
         return $products;
 
     }
+
+    public static function getRecommendedProducts($count){
+        $count = intval($count);
+        $products = array();
+
+        $db = Db::getConnection();
+
+        $sql = "SELECT * FROM product WHERE is_recommended = '1' "
+        . "LIMIT :count";
+        $result = $db->prepare($sql);
+        $result->bindParam(':count', $count, PDO::PARAM_INT);
+        $result->execute();
+
+        $i = 0;
+
+        while($row = $result->fetch(PDO::FETCH_ASSOC)){
+            $products[$i]['id']     = $row['id'];
+            $products[$i]['name']   = $row['name'];
+            $products[$i]['price']  = $row['price'];
+            $products[$i]['image']  = $row['image'];
+            $products[$i]['is_new'] = $row['is_new'];
+            $i++;
+        }
+
+        return $products;
+    }
 } 

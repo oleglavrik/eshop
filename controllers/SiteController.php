@@ -9,6 +9,7 @@ class SiteController {
         # get latest products
         $latestProduct = array();
         $latestProduct = Product::getLatestProduct(9);
+        $sliderProducts = Product::getRecommendedProducts(6);
         require_once(ROOT . '/views/site/index.php');
 
         return true;

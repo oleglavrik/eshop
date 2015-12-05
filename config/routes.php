@@ -13,6 +13,5 @@
         'cart/checkout'     => 'cart/checkout',
         'cart/delete/([0-9]+)'  => 'cart/delete/$1',
         'cart'              => 'cart/index',
-
         ''                  => 'site/index'
     );
