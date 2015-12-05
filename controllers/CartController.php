@@ -88,4 +88,10 @@ class CartController {
 
         return true;
     }
+
+    public function actionDelete($id){
+        Cart::delete($id);
+        header('Location: /cart/');
+        return true;
+    }
 } 

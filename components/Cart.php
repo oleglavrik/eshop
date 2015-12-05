@@ -90,4 +90,14 @@ class Cart {
 
         return self::countItems();
     }
+
+    public static function delete($id){
+        $id = intval($id);
+
+        $productsInCart = self::getProducts();
+
+        unset($productsInCart[$id]);
+
+        $_SESSION['products'] = $productsInCart;
+    }
 } 
