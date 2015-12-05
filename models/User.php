@@ -2,6 +2,8 @@
 
 class User {
     public static function register($name, $email, $password){
+        $password = md5(md5($password));
+
         $db = Db::getConnection();
 
         $sql = 'INSERT INTO user (name, email, password) '
@@ -39,6 +41,13 @@ class User {
         return false;
     }
 
+    public static function checkPhone($phone){
+        if (strlen($phone) >= 10) {
+            return true;
+        }
+        return false;
+    }
+
     public static function checkEmailExists($email){
         $db = Db::getConnection();
 
@@ -54,6 +63,7 @@ class User {
     }
 
     public static function checkUserData($email, $password){
+        $password  = md5(md5($password));
         $db = Db::getConnection();
 
         $sql = 'SELECT * FROM user WHERE email = :email AND password = :password';
