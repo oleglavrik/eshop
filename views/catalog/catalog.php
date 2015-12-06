@@ -14,7 +14,16 @@
 
                 <div class="col-sm-9 padding-right">
                     <div class="features_items"><!--features_items-->
-                        <h2 class="title text-center"><?php echo $categoryProducts['0']['name']; ?></h2>
+                        <h2 class="title text-center">
+                            <?php
+                                if(isset($categoryProducts['0']['name'])){
+                                    echo $categoryProducts['0']['name'];
+                                }else{
+                                    echo 'Нет ни одного товара';
+                                }
+                            ?>
+
+                        </h2>
                         <?php foreach($categoryProducts as $productItem) : ?>
                             <div class="col-sm-4">
                                 <div class="product-image-wrapper">

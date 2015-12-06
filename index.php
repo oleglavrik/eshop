@@ -13,5 +13,4 @@
     $router->run();
 
     // todo add .gitignore
-
-    // edit some bug in catalog when who's add 1 product
+    // todo пройтись по файлах навести порядок
