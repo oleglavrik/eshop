@@ -26,7 +26,29 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="66" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="700">
+            <state line="21" column="58" selection-start="861" selection-end="861" vertical-scroll-proportion="-5.37931" vertical-offset="264" max-vertical-offset="860">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminCategoryController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/AdminCategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="40" selection-start="1794" selection-end="1794" vertical-scroll-proportion="5.2459016" vertical-offset="60" max-vertical-offset="740">
+              <folding>
+                <element signature="n#actionIndex#0;n#AdminCategoryController#0;n#!!top" expanded="false" />
+                <element signature="n#actionDelete#0;n#AdminCategoryController#0;n#!!top" expanded="false" />
+                <element signature="n#actionCreate#0;n#AdminCategoryController#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/admin_category/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="63" selection-start="1026" selection-end="1036" vertical-scroll-proportion="-11.724138" vertical-offset="60" max-vertical-offset="800">
               <folding />
             </state>
           </provider>
@@ -35,62 +57,31 @@
       <file leaf-file-name="AdminProductController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/AdminProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="35" selection-start="3387" selection-end="3387" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2300">
-              <folding />
+            <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="14.4827585" vertical-offset="480" max-vertical-offset="1040">
+              <folding>
+                <element signature="n#actionIndex#0;n#AdminProductController#0;n#!!top" expanded="false" />
+                <element signature="n#actionDelete#0;n#AdminProductController#0;n#!!top" expanded="false" />
+                <element signature="n#actionCreate#0;n#AdminProductController#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin_product/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="87" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="2080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin_product/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="66" selection-start="1623" selection-end="1638" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="2320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin_product/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin_product/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="35" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1040">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="21" selection-start="6866" selection-end="6866" vertical-scroll-proportion="-0.48066297" vertical-offset="1901" max-vertical-offset="2500">
+            <state line="82" column="53" selection-start="2242" selection-end="2283" vertical-scroll-proportion="-11.862069" vertical-offset="316" max-vertical-offset="1760">
               <folding>
                 <element signature="n#getLatestProduct#0;n#Product#0;n#!!top" expanded="false" />
                 <element signature="n#getProductsListByCategory#0;n#Product#0;n#!!top" expanded="false" />
-                <element signature="n#getProductById#0;n#Product#0;n#!!top" expanded="false" />
                 <element signature="e#2305#2410#0" expanded="false" />
                 <element signature="n#getTotalProductsInCategory#0;n#Product#0;n#!!top" expanded="false" />
                 <element signature="n#getProductsByIds#0;n#Product#0;n#!!top" expanded="false" />
                 <element signature="n#getRecommendedProducts#0;n#Product#0;n#!!top" expanded="false" />
+                <element signature="n#getProductsList#0;n#Product#0;n#!!top" expanded="false" />
                 <element signature="n#deleteProductById#0;n#Product#0;n#!!top" expanded="false" />
                 <element signature="n#createProduct#0;n#Product#0;n#!!top" expanded="false" />
+                <element signature="n#updateProductById#0;n#Product#0;n#!!top" expanded="false" />
                 <marker date="1449419565773" expanded="true" signature="3023:3085" placeholder="SELECT * FRO..product..." />
                 <marker date="1449419565773" expanded="true" signature="4579:4636" placeholder="SELECT id, n..product..." />
                 <marker date="1449419565773" expanded="true" signature="5217:5251" placeholder="DELETE FROM ..." />
@@ -103,10 +94,18 @@
       <file leaf-file-name="Category.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="940">
+            <state line="56" column="19" selection-start="1476" selection-end="1476" vertical-scroll-proportion="-4.965517" vertical-offset="356" max-vertical-offset="1760">
               <folding>
-                <marker date="1449413889514" expanded="true" signature="166:219" placeholder="SELECT id, n..category..." />
-                <marker date="1449413889514" expanded="true" signature="683:756" placeholder="SELECT id, n..category..." />
+                <element signature="n#getCategory#0;n#Category#0;n#!!top" expanded="false" />
+                <element signature="n#getCategoriesListAdmin#0;n#Category#0;n#!!top" expanded="false" />
+                <element signature="n#deleteCategoryById#0;n#Category#0;n#!!top" expanded="false" />
+                <element signature="n#getCategoryById#0;n#Category#0;n#!!top" expanded="false" />
+                <marker date="1449601373444" expanded="true" signature="223:276" placeholder="SELECT id, n..category..." />
+                <marker date="1449601373444" expanded="true" signature="740:813" placeholder="SELECT id, n..category..." />
+                <marker date="1449601373444" expanded="true" signature="1845:1880" placeholder="DELETE FROM ..." />
+                <marker date="1449601373444" expanded="true" signature="2902:3002" placeholder="SELECT name,..category..." />
+                <marker date="1449601373444" expanded="true" signature="2902:2962" placeholder="SELECT name,..category..." />
+                <marker date="1449601373444" expanded="true" signature="2902:2962" placeholder="SELECT name,..category..." />
               </folding>
             </state>
           </provider>
@@ -122,11 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/model/Products.php" />
-        <option value="$PROJECT_DIR$/controllers/Catalog.php" />
-        <option value="$PROJECT_DIR$/views/layout/left-sidebar.php" />
-        <option value="$PROJECT_DIR$/model/Product.php" />
-        <option value="$PROJECT_DIR$/model/Category.php" />
         <option value="$PROJECT_DIR$/views/product/view.php" />
         <option value="$PROJECT_DIR$/components/Db.php" />
         <option value="$PROJECT_DIR$/components/Router.php" />
@@ -167,12 +161,17 @@
         <option value="$PROJECT_DIR$/views/admin_product/index.php" />
         <option value="$PROJECT_DIR$/views/admin_product/delete.php" />
         <option value="$PROJECT_DIR$/views/admin_product/create.php" />
-        <option value="$PROJECT_DIR$/models/Category.php" />
-        <option value="$PROJECT_DIR$/config/routes.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/admin_product/update.php" />
-        <option value="$PROJECT_DIR$/controllers/AdminProductController.php" />
         <option value="$PROJECT_DIR$/models/Product.php" />
+        <option value="$PROJECT_DIR$/views/admin_category/index.php" />
+        <option value="$PROJECT_DIR$/views/admin_category/delete.php" />
+        <option value="$PROJECT_DIR$/views/admin_category/create.php" />
+        <option value="$PROJECT_DIR$/config/routes.php" />
+        <option value="$PROJECT_DIR$/controllers/AdminProductController.php" />
+        <option value="$PROJECT_DIR$/views/admin_category/update.php" />
+        <option value="$PROJECT_DIR$/models/Category.php" />
+        <option value="$PROJECT_DIR$/controllers/AdminCategoryController.php" />
       </list>
     </option>
   </component>
@@ -255,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin_product" />
+              <option name="myItemId" value="admin_category" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,6 +269,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,16 +370,16 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34331983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35465586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753164" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.78075707" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35465586" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -401,31 +428,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mvc.loc/components/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="348" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mvc.loc/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="159" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mvc.loc/controllers/NewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="118" selection-end="300" vertical-scroll-proportion="0.31088084" vertical-offset="0" max-vertical-offset="700" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="984" column="20" selection-start="31299" selection-end="31299" vertical-scroll-proportion="-6.551724" vertical-offset="19490" max-vertical-offset="26940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="158" selection-end="158" vertical-scroll-proportion="0.27303755" vertical-offset="0" max-vertical-offset="586" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout/left-sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="119" selection-start="231" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="240" />
@@ -566,11 +568,6 @@
         <state line="21" column="62" selection-start="955" selection-end="955" vertical-scroll-proportion="0.7327434" vertical-offset="6" max-vertical-offset="1160" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="82" selection-end="92" vertical-scroll-proportion="0.10380623" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="26" selection-start="2597" selection-end="2597" vertical-scroll-proportion="-46.931034" vertical-offset="479" max-vertical-offset="2040" />
@@ -596,13 +593,6 @@
         <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.035971224" vertical-offset="0" max-vertical-offset="820" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin_product/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="20" selection-start="104" selection-end="104" vertical-scroll-proportion="0.1438849" vertical-offset="0" max-vertical-offset="556" />
@@ -618,73 +608,127 @@
         <state line="10" column="50" selection-start="266" selection-end="282" vertical-scroll-proportion="-6.8965516" vertical-offset="0" max-vertical-offset="500" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Category.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="940">
-          <folding>
-            <marker date="1449413889514" expanded="true" signature="166:219" placeholder="SELECT id, n..category..." />
-            <marker date="1449413889514" expanded="true" signature="683:756" placeholder="SELECT id, n..category..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin_product/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="66" selection-start="1623" selection-end="1638" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="2320">
-          <folding />
-        </state>
+        <state line="15" column="46" selection-start="372" selection-end="372" vertical-scroll-proportion="0.53956836" vertical-offset="0" max-vertical-offset="556" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin_product/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="35" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1040">
+        <state line="46" column="35" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.7818854" vertical-offset="497" max-vertical-offset="1040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin_product/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin_product/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="66" selection-start="1623" selection-end="1638" vertical-scroll-proportion="0.4973357" vertical-offset="600" max-vertical-offset="2320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin_product/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="87" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.60390764" vertical-offset="600" max-vertical-offset="2080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="82" selection-end="92" vertical-scroll-proportion="0.104166664" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin_category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.6598891" vertical-offset="357" max-vertical-offset="1040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin_category/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.03683241" vertical-offset="0" max-vertical-offset="543">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin_category/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="940">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="66" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="372" selection-end="372" vertical-scroll-proportion="0.53956836" vertical-offset="0" max-vertical-offset="556" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin_product/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="87" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="2080">
+        <state line="21" column="58" selection-start="861" selection-end="861" vertical-scroll-proportion="-5.37931" vertical-offset="264" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AdminProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="35" selection-start="3387" selection-end="3387" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2300">
-          <folding />
+        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="14.4827585" vertical-offset="480" max-vertical-offset="1040">
+          <folding>
+            <element signature="n#actionIndex#0;n#AdminProductController#0;n#!!top" expanded="false" />
+            <element signature="n#actionDelete#0;n#AdminProductController#0;n#!!top" expanded="false" />
+            <element signature="n#actionCreate#0;n#AdminProductController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="19" selection-start="1476" selection-end="1476" vertical-scroll-proportion="-4.965517" vertical-offset="356" max-vertical-offset="1760">
+          <folding>
+            <element signature="n#getCategory#0;n#Category#0;n#!!top" expanded="false" />
+            <element signature="n#getCategoriesListAdmin#0;n#Category#0;n#!!top" expanded="false" />
+            <element signature="n#deleteCategoryById#0;n#Category#0;n#!!top" expanded="false" />
+            <element signature="n#getCategoryById#0;n#Category#0;n#!!top" expanded="false" />
+            <marker date="1449601373444" expanded="true" signature="223:276" placeholder="SELECT id, n..category..." />
+            <marker date="1449601373444" expanded="true" signature="740:813" placeholder="SELECT id, n..category..." />
+            <marker date="1449601373444" expanded="true" signature="1845:1880" placeholder="DELETE FROM ..." />
+            <marker date="1449601373444" expanded="true" signature="2902:3002" placeholder="SELECT name,..category..." />
+            <marker date="1449601373444" expanded="true" signature="2902:2962" placeholder="SELECT name,..category..." />
+            <marker date="1449601373444" expanded="true" signature="2902:2962" placeholder="SELECT name,..category..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="21" selection-start="6866" selection-end="6866" vertical-scroll-proportion="-0.48066297" vertical-offset="1901" max-vertical-offset="2500">
+        <state line="82" column="53" selection-start="2242" selection-end="2283" vertical-scroll-proportion="-11.862069" vertical-offset="316" max-vertical-offset="1760">
           <folding>
             <element signature="n#getLatestProduct#0;n#Product#0;n#!!top" expanded="false" />
             <element signature="n#getProductsListByCategory#0;n#Product#0;n#!!top" expanded="false" />
-            <element signature="n#getProductById#0;n#Product#0;n#!!top" expanded="false" />
             <element signature="e#2305#2410#0" expanded="false" />
             <element signature="n#getTotalProductsInCategory#0;n#Product#0;n#!!top" expanded="false" />
             <element signature="n#getProductsByIds#0;n#Product#0;n#!!top" expanded="false" />
             <element signature="n#getRecommendedProducts#0;n#Product#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsList#0;n#Product#0;n#!!top" expanded="false" />
             <element signature="n#deleteProductById#0;n#Product#0;n#!!top" expanded="false" />
             <element signature="n#createProduct#0;n#Product#0;n#!!top" expanded="false" />
+            <element signature="n#updateProductById#0;n#Product#0;n#!!top" expanded="false" />
             <marker date="1449419565773" expanded="true" signature="3023:3085" placeholder="SELECT * FRO..product..." />
             <marker date="1449419565773" expanded="true" signature="4579:4636" placeholder="SELECT id, n..product..." />
             <marker date="1449419565773" expanded="true" signature="5217:5251" placeholder="DELETE FROM ..." />
             <marker date="1449419565773" expanded="true" signature="7086:7518" placeholder="UPDATE produ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin_category/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="63" selection-start="1026" selection-end="1036" vertical-scroll-proportion="-11.724138" vertical-offset="60" max-vertical-offset="800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/AdminCategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="40" selection-start="1794" selection-end="1794" vertical-scroll-proportion="5.2459016" vertical-offset="60" max-vertical-offset="740">
+          <folding>
+            <element signature="n#actionIndex#0;n#AdminCategoryController#0;n#!!top" expanded="false" />
+            <element signature="n#actionDelete#0;n#AdminCategoryController#0;n#!!top" expanded="false" />
+            <element signature="n#actionCreate#0;n#AdminCategoryController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
