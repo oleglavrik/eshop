@@ -18,11 +18,16 @@
         'cart/checkout'         => 'cart/checkout',
         'cart/delete/([0-9]+)'  => 'cart/delete/$1',
         'cart'                  => 'cart/index',
+        # admin/order
+        'admin/order/view/([0-9]+)'            => 'adminOrder/view/$1',
+        'admin/order/update/([0-9]+)' => 'adminOrder/update/$1',
+        'admin/order/delete/([0-9]+)' => 'adminOrder/delete/$1',
+        'admin/order'                 => 'adminOrder/index',
         # admin/category
         'admin/category/update/([0-9]+)' => 'adminCategory/update/$1',
         'admin/category/create'          => 'adminCategory/create',
         'admin/category/delete/([0-9]+)' => 'adminCategory/delete/$1',
-        'admin/category' => 'adminCategory/index',
+        'admin/category'                 => 'adminCategory/index',
 
         # admin/product
         'admin/product/update/([0-9]+)' => 'adminProduct/update/$1',

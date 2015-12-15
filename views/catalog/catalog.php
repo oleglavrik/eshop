@@ -1,5 +1,4 @@
 <?php include(ROOT . '/views/layout/header.php'); ?>
-
     <section>
         <div class="container">
             <div class="row">
@@ -11,7 +10,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-sm-9 padding-right">
                     <div class="features_items"><!--features_items-->
                         <h2 class="title text-center">
@@ -22,7 +20,6 @@
                                     echo 'Нет ни одного товара';
                                 }
                             ?>
-
                         </h2>
                         <?php foreach($categoryProducts as $productItem) : ?>
                             <div class="col-sm-4">
@@ -30,7 +27,7 @@
                                     <div class="single-products">
                                         <div class="productinfo text-center">
                                             <a href="/product/<?php echo $productItem['id']; ?>">
-                                                <img src="/template/<?php echo $productItem['image']; ?>" alt="" />
+                                                <img src="<?php echo Product::getImage($productItem['id']); ?>" alt="" />
                                             </a>
                                             <h2><?php echo '$' . $productItem['price']; ?></h2>
                                             <a href="/product/<?php echo $productItem['id']; ?>"><p><?php echo $productItem['name']; ?></p></a>
@@ -49,5 +46,4 @@
             </div>
         </div>
     </section>
-
 <?php include(ROOT . '/views/layout/footer.php'); ?>

@@ -53,14 +53,14 @@ class AdminProductController extends AdminBase {
             if($errors == false){
                 # add new product and get his id
                 $id = Product::createProduct($options);
-                /*
+
                 if ($id) {
                     # check, the image loaded
                     if (is_uploaded_file($_FILES["image"]["tmp_name"])) {
                         move_uploaded_file($_FILES["image"]["tmp_name"], $_SERVER['DOCUMENT_ROOT'] . "/upload/images/products/{$id}.jpg");
                     }
                 };
-                */
+
                 # redirect to admin/product
                 header("Location: /admin/product");
             }

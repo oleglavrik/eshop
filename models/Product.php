@@ -274,4 +274,21 @@ class Product {
         $result->bindParam(':status', $options['status'], PDO::PARAM_INT);
         return $result->execute();
     }
+
+    /**
+     * Get image
+     * @param $id
+     * @return string
+     */
+    public static function getImage($id){
+        $noImage = 'no-image.jpg';
+
+        $path = '/upload/images/products/';
+        $pathToProductImage = $path . $id . '.jpg';
+        if(file_exists($_SERVER['DOCUMENT_ROOT'] . $pathToProductImage)){
+            return $pathToProductImage;
+        }
+
+        return $path . $noImage;
+    }
 } 
